@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/globalstyle/formregist/formcss.css" />
+    <title>Formulario de Registro de Entrega</title>
+  </head>
+
+  <body>
+    <form action="form-register" method="get">
+      <h2>Registro de Entrega</h2>
+      <div class="input">
+        <label for="deliveryman">Entregador</label>
+        <select name="deliveryman" id="deliveryman">
+          <option value="deliveryman1">Veríssimo Rodrigues Casas Junior</option>
+          <option value="deliveryman2">João Pedro Batista Casas</option>
+          <option value="deliveryman3">Veríssimo Rodrigues Casas Neto</option>
+        </select>
+      </div>
+      <div class="input">
+        <label for="delivery-place">Local de Entrega</label>
+        <select name="delivery-placedelivery-place" id="delivery-place">
+          <option class="delivery-place" value="Gera">UTE - GERA</option>
+          <option class="delivery-place" value="Workshop">
+            Wartsila Workshop
+          </option>
+          <option class="delivery-place" value="MANAURA">UTE - MANAURA</option>
+        </select>
+      </div>
+      <div class="input">
+        <fieldset>
+          <legend>Produtos</legend>
+          <div>
+            <input
+              class="checkbox"
+              type="checkbox"
+              name="coffe"
+              id="Café Completo"
+            />
+            <label for="Products">Café Completo</label>
+          </div>
+          <div>
+            <input
+              class="checkbox"
+              type="checkbox"
+              name="coffe"
+              id="Café Extra"
+            />
+            <label for="Products">Café Extra</label>
+          </div>
+        </fieldset>
+      </div>
+
+      <button type="submit">Registrar</button>
+    </form>
+  </body>
+
+  <script src="/src/globalstyle/formregist/script.js"></script>
+</html>

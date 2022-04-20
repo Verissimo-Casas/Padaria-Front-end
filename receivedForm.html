@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="/src/globalstyle/receivedForm/receivedForm.css"
+    />
+    <title>Formulario de Registro de Entrega</title>
+  </head>
+
+  <body>
+    <form action="form-register" method="get">
+      <h2>Validar Recepção</h2>
+      <div class="input">
+        <label for="delivery-place">Local de Registro</label>
+        <select name="delivery-placedelivery-place" id="delivery-place">
+          <option value="Workshop">Wartsila Workshop</option>
+          <option value="Gera">UTE - GERA</option>
+          <option value="MANAURA">UTE - MANAURA</option>
+        </select>
+      </div>
+      <div class="input">
+        <label for="responsible-for-checking">Responsavel</label>
+        <select name="responsible" id="responsible">
+          <option value="responsible1">Fulano1</option>
+          <option value="responsible2">Siclano2</option>
+        </select>
+      </div>
+
+      <div class="container-products">
+        <label for="Products">Produtos</label>
+        <div class="container-items">
+          <ul>
+            <li class="item">Café Completo</li>
+            <li class="item">Café Extra</li>
+          </ul>
+        </div>
+      </div>
+
+      <button type="submit">Confirmar Recepção ✔</button>
+    </form>
+  </body>
+
+  <script src="/src/globalstyle/receivedForm/script.js"></script>
+</html>
