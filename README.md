@@ -1,4 +1,4 @@
-# Paradaria-Front-end
+# Padaria-Front-end
 
 ##### Dashboard 
 ![Captura de Tela 2022-04-20 às 17 01 12](https://user-images.githubusercontent.com/73920445/164325616-c12fd1ba-a93d-4320-adb7-9eb3893a6faa.png)
